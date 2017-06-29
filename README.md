@@ -20,34 +20,36 @@ __MedBank__ is a medical related knowledge base used from *Entity Typing*. It is
 ### What's in this repo?
 - `src/` source code from processing
 - `example/` an example of the target knowledge base
-- _<Add something if needed_
+- _<Add something if needed>_
 
 ### How to run?
 Please see `src/run.sh` to download, process, and generate MedBank from sources listed above.
 
 ### Format
 
-- `medbank-mid-name.map`
+- `medbank-id-name.map`
+Records the entity `id` and entity `name` in a format of `id    <name>`
 
 ```
-0    aspirin
-1    blood
-2    carboxylic acid
+0    <aspirin>
+1    <blood>
+2    <carboxylic acid>
 ...
 ```
 
-- `medbank-mid-type.map`
+- `medbank-id-type.map`
+Records the entity `id` and entity `type` in a format of `id    <type>`
 
 ```
-0    drug
-1    body fluid
-2    chemical
+100    <drug>
+101    <body fluid>
+102    <chemical>
 ...
 ```
 
 - `medbank-facts.txt`
-
+Records the facts mentioned in MedBank in a format of `id_1    <fact>    id_2`
 ```
-0    symptom_of    23
+77    <symptom_of>    23
 ...
 ```
