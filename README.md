@@ -20,3 +20,29 @@ __MedBank__ is a medical related knowledge base used from *Entity Typing*. It is
 ### How to run?
 Please see `src/run.sh` to download, process, and generate MedBank from sources listed above.
 
+### Format
+
+- `medbank-mid-name.map`
+
+```
+0    aspirin
+1    blood
+2    carboxylic acid
+...
+```
+
+- `medbank-mid-type.map`
+
+```
+0    drug
+1    body fluid
+2    chemical
+...
+```
+
+- `medbank-facts.txt`
+
+```
+0    symptom_of    23
+...
+```
