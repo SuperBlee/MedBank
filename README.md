@@ -1,7 +1,7 @@
 MedBank
 ====
 
-Yichao Zhou (joey1993@gmail.com)
+Yichao Zhou (yz@cs.ucla.edu)
 
 Zeyu Li (zyli@cs.ucla.edu)
 
@@ -20,7 +20,7 @@ __MedBank__ is a medical related knowledge base used from *Entity Typing*. It is
 ### What's in this repo?
 - `src/` source code from processing
 - `example/` an example of the target knowledge base
-- _<Add something if needed>_
+- _Add something if needed_
 
 ### How to run?
 Please see `src/run.sh` to download, process, and generate MedBank from sources listed above.
